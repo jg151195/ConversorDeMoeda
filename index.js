@@ -14,7 +14,6 @@ function changeCoinTo() {
     return a;
 }
 
-
 async function getData(a, b) {
     try {
         const coins = `${a}-${b}`
