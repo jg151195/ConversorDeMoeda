@@ -21,34 +21,22 @@ async function getData(a, b) {
         const response = await fetch(`https://economia.awesomeapi.com.br/last/${coins}`)
         const data = await response.json();
         if (data.USDBRL) {
-            const {
-                bid
-            } = data.USDBRL;
+            const {bid} = data.USDBRL;
             return bid
         } else if (data.BRLUSD) {
-            const {
-                bid
-            } = data.BRLUSD;
+            const {bid} = data.BRLUSD;
             return bid
         } else if (data.EURBRL) {
-            const {
-                bid
-            } = data.EURBRL;
+            const {bid} = data.EURBRL;
             return bid
         } else if (data.BRLEUR) {
-            const {
-                bid
-            } = data.BRLEUR;
+            const {bid} = data.BRLEUR;
             return bid
         } else if (data.USDEUR) {
-            const {
-                bid
-            } = data.USDEUR;
+            const {bid} = data.USDEUR;
             return bid
         } else if (data.EURUSD) {
-            const {
-                bid
-            } = data.EURUSD;
+            const {bid} = data.EURUSD;
             return bid
         }
     } catch (err) {
