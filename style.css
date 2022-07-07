@@ -10,6 +10,7 @@
 body{
     display: flex;
     justify-content: center;
+    background-color: #E0E0E0;
 }
 
 input[type=number]::-webkit-inner-spin-button, 
