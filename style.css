@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;700&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.main-container{
+    text-align: center;
+    margin-top: 3em;
+    width: 600px;
+    height: 700px;
+    font-size: 1.5em;
+    border-radius: 20px;
+    box-shadow: 0.6em 0.6em 1em #00000015;
+}
+h1{
+    padding: 40px;
+}
+.sub-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+}
+
+.sub-container label{
+    padding: 10px;
+}
+
+.sub-container input {
+    text-align: center;
+    font-size: 0.8em;
+    border: solid black;
+    border-radius: 5px;
+    padding: 5px;
+    width: 50%;
+}
+.sub-container select{
+    text-align: center;
+    font-size: 0.8em;
+    border: solid black;
+    border-radius: 5px;
+    padding: 5px;
+    width: 50%;
+}
+
+.sub-container button{
+    cursor: pointer;
+    border: solid black 3px;
+    border-radius: 10px;
+    font-size: 1.1em;
+    padding: 10px;
+    background-color: greenyellow;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.sub-container button:hover{
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+
+#result{
+    font-size: 1.2em;
+    font-weight: bold;
+}
